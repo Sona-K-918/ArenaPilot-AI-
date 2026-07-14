@@ -1,0 +1,6 @@
+{
+  "name": "ArenaPilot AI",
+  "description": "AI-powered Stadium Companion for FIFA World Cup 2026",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
