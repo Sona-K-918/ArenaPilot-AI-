@@ -2,6 +2,18 @@
 
 # ⚽ ArenaPilot AI
 
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+
+![Vite](https://img.shields.io/badge/Vite-6-purple?logo=vite)
+
+![Firebase](https://img.shields.io/badge/Firebase-orange?logo=firebase)
+
+![Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+
+![Status](https://img.shields.io/badge/Status-Under%20Development-success)
+
 ### *Your AI-Powered Stadium Companion for FIFA World Cup 2026*
 
 From **Entry ➜ Seat ➜ Match ➜ Food ➜ Washroom ➜ Exit**
