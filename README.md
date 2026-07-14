@@ -1,187 +1,227 @@
+<p align="center">
+
 # ⚽ ArenaPilot AI
 
-> **Your AI-powered Stadium Companion for FIFA World Cup 2026**
+### *Your AI-Powered Stadium Companion for FIFA World Cup 2026*
 
-ArenaPilot AI is a GenAI-enabled web application designed to enhance the entire stadium experience—from the moment fans enter the venue until they safely exit.
+From **Entry ➜ Seat ➜ Match ➜ Food ➜ Washroom ➜ Exit**
 
-Instead of focusing only on the match, ArenaPilot improves navigation, accessibility, crowd management, multilingual communication, emergency response, and fan convenience through intelligent recommendations and real-time decision support.
+Spend less time navigating.
+Spend more time experiencing football.
 
----
-
-## 🌟 Problem Statement
-
-Fans often spend valuable match time:
-
-- Looking for their seats
-- Waiting in long food queues
-- Searching for washrooms
-- Getting lost inside large stadiums
-- Struggling with language barriers
-- Finding exits after the match
-
-ArenaPilot AI aims to eliminate these pain points.
+</p>
 
 ---
 
-# 🚀 Features
+## 🏟️ Overview
 
-### 🎟 Smart Ticket Scan
-- Upload match ticket
-- Automatically extracts:
-  - Stadium
-  - Match
-  - Date & Time
-  - Seat Number
-- Eliminates manual input
+ArenaPilot AI is a GenAI-powered web application designed to improve the complete stadium experience during the FIFA World Cup 2026.
+
+Instead of focusing only on the match, ArenaPilot becomes a fan's personal companion throughout the event.
 
 ---
 
-### 🪑 AI Seat Navigation
+# 🎯 Problem
 
-Indoor navigation to the user's seat using:
+Fans frequently lose valuable match time because they:
 
-- Stadium 3D Map
-- Least crowded route
-- Stairs
+- 🪑 struggle to locate their seats
+- 🍔 wait in long concession queues
+- 🚻 search for washrooms
+- 🌍 face language barriers
+- 🚨 require emergency assistance
+- 🚗 struggle finding the fastest exit
+
+ArenaPilot AI solves these problems using AI-driven recommendations and indoor navigation.
+
+---
+
+# ✨ Features
+
+## 🎟 Smart Ticket Scan
+
+Upload your ticket once.
+
+ArenaPilot automatically extracts
+
+- Stadium
+- Match
+- Seat
+- Date
+- Time
+
+No manual setup required.
+
+---
+
+## 🪑 Indoor Seat Navigation
+
+Navigate using
+
+- Stadium 3D Maps
+- Least crowded routes
 - Elevators
 - Escalators
-- Accessibility-aware routing
+- Staircases
+- Accessible paths
 
 ---
 
-### 🍔 AI Crowd Prediction
+## 🍔 AI Food Recommendations
 
-Recommends:
+Instead of showing every stall,
 
-- Least crowded food stalls
-- Fastest washrooms
-- Best routes
+ArenaPilot recommends the **Top 2** based on
 
-Shows:
+- Walking distance
+- Crowd prediction
+- Waiting time
+- Current congestion
 
+---
+
+## 🚻 AI Washroom Finder
+
+Find the fastest available washroom using
+
+- Live occupancy
+- Queue prediction
 - Distance
-- Estimated crowd
-- Predicted waiting time
-- Stall occupancy
+- Walking congestion
 
 ---
 
-### 🌍 Multilingual Assistant
+## 🌍 Live Translation
 
-Supports international visitors through:
+Communicate instantly with
 
-- Real-time speech translation
-- Audio translation
-- Text translation
+- Volunteers
+- Stadium Staff
+- Other Fans
 
----
-
-### ♿ Accessibility
-
-ArenaPilot provides features for visitors with disabilities.
-
-Examples:
-
-- Audio-to-text
-- Speech assistance
-- Accessible routes
-- Staff assistance request
+through AI-powered speech translation.
 
 ---
 
-### 🚨 Smart SOS
+## ♿ Accessibility
 
-Emergency support including:
+Designed for everyone.
+
+Supports
+
+- Audio-to-Text
+- Speech Assistance
+- Accessible Routes
+- Staff Requests
+
+---
+
+## 🚨 SOS
+
+Emergency support including
 
 - Medical Emergency
 - Lost Person
-- Lost Yourself
 - Injury
-- Other emergencies
+- Other Emergencies
 
-Instantly alerts stadium staff.
+with immediate staff notification.
 
 ---
 
-### 🚗 Intelligent Exit Planner
+## 🚗 Smart Exit Planner
 
-After the match, ArenaPilot automatically switches to Exit Mode.
+Once the match ends,
 
-Navigation adapts based on:
+ArenaPilot automatically switches to **Exit Mode**
 
-- Personal Vehicle
-- Public Transport
-- Stadium Shuttle
+and guides users according to
+
 - Parking Location
-
-Helping fans leave quickly with minimal congestion.
+- Public Transport
+- Shuttle Services
 
 ---
 
-# 🤖 AI Features
+# 🤖 AI
 
-ArenaPilot leverages Generative AI for:
+ArenaPilot leverages Generative AI for
 
-- Crowd prediction
-- Decision support
-- Personalized recommendations
+- Crowd Prediction
+- Intelligent Routing
+- Recommendation Engine
 - Translation
-- Smart navigation suggestions
+- Decision Support
 
 ---
 
-# 🛠 Tech Stack
+# 🖥️ Tech Stack
 
-## Frontend
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Motion
-- Lucide Icons
-
-## Backend
-
-- Firebase Authentication
-- Firestore
-- Firebase Storage
-
-## AI
-
-- Google Gemini API
-- @google/genai
+| Category | Technology |
+|-----------|------------|
+| Frontend | React + TypeScript |
+| Styling | Tailwind CSS |
+| Build Tool | Vite |
+| Animation | Motion |
+| Icons | Lucide |
+| Backend | Firebase |
+| Database | Firestore |
+| Storage | Firebase Storage |
+| AI | Google Gemini |
 
 ---
 
-# 📱 Current Status
+# 📂 Project Structure
 
-🚧 Under Development
+```text
+src/
+│
+├── components/
+├── pages/
+├── hooks/
+├── services/
+├── context/
+├── assets/
+├── utils/
+└── types/
+```
 
-Upcoming modules:
+---
 
-- Live Crowd Prediction
-- Indoor Routing Engine
-- Stadium Maps
-- Firebase Integration
-- AI Recommendation Engine
-- Notifications
-- Parking Guidance
+# 🚀 Roadmap
+
+- [x] Project Setup
+- [x] Dashboard UI
+- [x] Stadium Assistant
+- [ ] Ticket OCR
+- [ ] Indoor Navigation
+- [ ] AI Crowd Prediction
+- [ ] Firebase Authentication
+- [ ] AI Translation
+- [ ] Smart Exit Planner
+- [ ] Notifications
+- [ ] Final Deployment
+
+---
+
+# 📸 Screenshots
+
+Coming Soon...
 
 ---
 
 # 👩‍💻 Developer
 
-**Sonakshi Kaushik**
+## Sonakshi Kaushik
 
 B.Tech Computer Science Engineering
 
-AI • Full Stack • UI/UX • Cybersecurity Enthusiast
+AI • Full Stack • UI/UX • Cybersecurity
 
 ---
 
-# ⭐ Vision
+# 🌟 Vision
 
-ArenaPilot AI isn't just another navigation app.
+ArenaPilot AI isn't just a navigation app.
 
-It's an intelligent stadium companion built to ensure fans spend less time navigating and more time experiencing the game.
+It is an intelligent stadium companion that helps fans spend less time navigating and more time experiencing the game.
